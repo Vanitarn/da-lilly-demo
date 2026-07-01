@@ -30,6 +30,17 @@
   height: 100%;
 }
 
+/* Focal point variants — author applies via block options in UE */
+.hero.focal-top img { object-position: center top; }
+.hero.focal-bottom img { object-position: center bottom; }
+.hero.focal-left img { object-position: left center; }
+.hero.focal-right img { object-position: right center; }
+.hero.focal-top-left img { object-position: left top; }
+.hero.focal-top-right img { object-position: right top; }
+.hero.focal-bottom-left img { object-position: left bottom; }
+.hero.focal-bottom-right img { object-position: right bottom; }
+
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;

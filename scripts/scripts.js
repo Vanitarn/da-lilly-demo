@@ -124,7 +124,8 @@ function decorateSections(main) {
  * Decorates the main element.
  * @param {Element} main The main element
  */
-// eslint-disable-next-line import/prefer-default-export
+export const NX_ORIGIN = 'https://da.live';
+
 export function decorateMain(main) {
   // hopefully forward compatible button decoration
   decorateButtons(main);

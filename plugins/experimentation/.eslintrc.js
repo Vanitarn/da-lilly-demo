@@ -17,5 +17,8 @@ module.exports = {
     'import/extensions': ['error', {
       js: 'always',
     }],
+    'import/no-unresolved': ['error', {
+      ignore: ['@playwright/test', 'monocart-coverage-reports'],
+    }],
   },
 };
